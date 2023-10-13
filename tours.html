@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="stylemp.css">
+	<title>Туры</title>
+</head>
+<body>
+
+<header>
+        <h1>Туристическая фирма &laquo;КОНКОРД&raquo;</h1>
+        <img src="logo.png" alt="a simple dove logo">
+      </header>
+      
+      <nav>
+        <ul>
+          <li><a href="index.html">О компании</a></li>
+          <li><a href="tours.html">Туры</a></li>
+          <li><a href="photos.html">Фотографии</a></li>
+          <li><a href="reviews.html">Отзывы клиентов</a></li>
+        </ul>
+    </nav>
+      <main>
+        <article>
+          <h2>Горящие туры!</h2>
+
+          <p>&laquo;КОНКОРД&raquo; - это низкие цены на поездки, но высокое качество исполнения всей возложенной на нас работы.</p>
+
+
+			<p>&laquo;КОНКОРД&raquo; вывезет Вас хоть куда! Мы возим по всему миру, например, вместе с нами Вы можете посетить:</p>
+			<ul>
+				<li>Мекку, Эр-Рияд, провинцию Эш-Шаркия (Саудовская Аравия)</li>
+				<li>Пальмиру, Идлиб, Дамаск (Сирия)</li>
+				<li>Триполи, Бенгази, Таваргеа (Ливия)</li>
+				<li>Банги, Кемо, Вакага (ЦАР)</li>
+			</ul>
+
+      <h3>Выберите тур, подходящий для вас:</h3>
+
+      <form action="index.html" method="post">
+            <label for="tour">Выбор тура:</label>
+            <select id="tour" name="tour">
+                <option value="tour1">Саудовская Аравия</option>
+                <option value="tour2">Сирия</option>
+                <option value="tour3">Ливия</option>
+                <option value="tour4">ЦАР</option>
+            </select>
+            <br>
+            <label for="quantity">Количество людей:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1">
+            <br>
+            <label for="name">Введите Ваше ФИО:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Введите Ваш Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <button type="submit">Оформить заказ</button>
+        </form>
+
+			<p>Мы всегда рады видеть Вас в нашем офисе по адресу г. Белгород, ул. Победы, д. 85.<br>
+      Также будем рады слышать Вас при звонке на наш телефон: +77777777777</p>
+        </article>
+      </main>
+
+      <footer>
+        <p id="translucentfont">
+        2003-2023 &copy; &laquo;КОНКОРД&raquo;<br>
+        Экскурсионные и туристические поездки
+    	</p>
+
+        <p><a href="http://game-icons.net/lorc/originals/dove.html">Dove icon</a> by Lorc.</p>
+      </footer>
+
+</body>
+</html>
